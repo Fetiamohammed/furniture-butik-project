@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "productName": "luxury",
+        "originalPrice": 18000,
+        "currentPrice": 9000
+    },
+    {
+        "id": "2",
+        "productName": "brownCorner",
+        "originalPrice": 20000,
+        "currentPrice": 12000
+    },
+    {
+        "id": "3",
+        "productName": "brownNEW",
+        "originalPrice": 19000,
+        "currentPrice": 13000
+    },
+    {
+        "id": "4",
+        "productName": "couch",
+        "originalPrice": 20000,
+        "currentPrice": 16000
+    },
+    {
+        "id":"5",
+        "productName": "pinkcomfy",
+        "originalPrice": 20000,
+        "currentPrice": 14000
+    },
+    {
+        "id":"6",
+        "productName": "graysimple",
+        "originalPrice": 15000,
+        "currentPrice": 7000
+    },
+    {
+        "id": "7",
+        "productName": "greensimple",
+        "originalPrice": 20000,
+        "currentPrice": 11000
+    },
+    {
+        "id": "8",
+        "productName":"graysofa",
+        "originalPrice": 12000,
+        "currentPrice": 7500
+    }
+]

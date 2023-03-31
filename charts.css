@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(
+        95.2deg,
+        rgb(213, 223, 222) 26.8%,
+        rgb(183, 186, 187) 64%
+    );
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #549496;
+    color: white;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 0px;
+
+}
+.title {
+    font-size: 24px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    width: 100%;
+    margin: 20px;
+    background-color: #5f9ea0;
+}
+
+.navbarlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbarlinks ul li {
+    list-style: none;
+}
+.navbarlinks ul li a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.navbarlinks ul li:hover {
+    background-color: rgb(141, 176, 162);
+}
+/*it works fine*/
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #5f9ea0;
+    }
+
+    .navbar-links {
+        width: 100%;
+        height: 20vh;
+        display: none;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbarlinks ul li {
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: 1px 2px;
+    }
+
+    .navbarlinks ul li:hover {
+        background-color: rgb(187, 197, 193);
+    }
+
+    .title {
+        margin-top: 2vw;
+        font-size: 30px;
+        color: white;
+    }
+}
+/* nav-end*/
+/* register start */
+.regbox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    margin: 20px 60px 20px;
+    border: solid 0.5px rgb(164, 182, 179);
+    border-radius: 20px;
+    background: #f1f1f1;
+    flex-wrap: wrap;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+    background-color: rgb(212, 205, 205);
+    outline: none;
+}
+
+hr {
+    border: 1px solid wheat;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #78807d;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: rgb(66, 100, 174);
+}
+
+.login-container {
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .regbox {
+        width: 360px;
+        height: auto;
+        margin: 7px;
+    }
+}
+.chart {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: 20px 60px 20px;
+}
+
+/* register end */
+/* charts section start*/
+@media only screen and (max-width: 600px) {
+    .chart {
+        display: flex;
+        width: 360px;
+        height: auto;
+        margin: 7px;
+    }
+}

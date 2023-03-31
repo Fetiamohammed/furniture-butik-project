@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+
+ body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                overflow-x: hidden;
+                background-color:#e2e5e4;
+                
+        }
+.city-hero {
+            background-image:url(labimage/city.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 90vh;
+            margin: 0px;
+            
+        }
+ 
+
+.cityBox{
+    display: flex;
+    border: solid 3px rgb(221, 221, 228);
+    margin-bottom: 5px;
+}
+.cities{
+    display: flex;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+input{
+    height: 30px;
+    width: 500px;
+    font-size: large;
+}
+.btnBox{
+    
+   
+    width: 30px;
+}

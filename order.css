@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
+        background-color:#F5FFFA;
+}
+.hero-image {
+    background-image:url(labimage/alona-gross-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    margin-top: 0px;
+    
+}
+
+.hero-text{
+text-align:left;
+position: absolute;
+font-size:large;
+top: 10%;
+left: 10%;
+color:rgb(26, 61, 26);
+}
+
+@media only screen and (max-width: 600px) {
+.hero-image {
+width: 100vw;
+height: 150vh;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    font-size: large;
+    top: 2%;
+    left: 10%;
+    color:white;
+}
+}
+/*hero end*/
+
+.buySection{
+    direction: flex;
+    text-align: center;
+    font-size: large;
+    margin: 20px 0px 10px;
+    flex-direction: column;
+    background-color: rgb(191, 216, 209);
+    box-sizing: border-box;
+}
+.buyTitle{
+    text-align: center;
+    margin: 20px 0px 10px;
+    padding-top: 10px;
+    font-size: large;
+}
+#itemCard{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+border-radius: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(245, 249, 248);
+    box-shadow: 0 0 4px 3p rgb(186, 198, 194);
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+.productName,.price{
+    font-weight: bold;
+    text-transform:capitalize;
+}
+.productImge{
+    display: flex;
+    height: 25%;
+}
+.btn{
+    background-color: rgb(63, 97, 63);
+    object-position: center;
+    align-items: center;
+    width: 60px;
+    font-size: medium;
+}

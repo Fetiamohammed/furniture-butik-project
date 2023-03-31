@@ -1,0 +1,80 @@
+[
+    {
+    "id":"1",
+    "productName": "luxury",
+    "price": 10500,
+    "image":"../labimage/bluemodern-luxury.png"
+    },
+    {
+        "id":"2",
+        "productName": "brownCorner",
+        "price": 16000,
+        "image":"../labimage/browncornersofa.png"
+    },
+    {
+        "id":"3",
+        "productName": "Yellow2sit",
+        "price": 7500,
+        "image":"../labimage/yellow-twosit.png"
+    },
+
+    {
+        "id":"4",
+        "productName": "brownNEW",
+        "price": 5000,
+        "image":"../labimage/brown-new.png"   
+    },
+    {
+        "id":"5",
+        "productName": "couch",
+        "price": 7000,
+        "image":"../labimage/couch.png"
+    },
+    {
+        "id":"6",
+        "productName": "pinkcomfy",
+        "price": 10000,
+        "image":"../labimage/pinkcomfy.png"
+    }, 
+    {
+        "id":"7",
+        "productName": "graysimple",
+        "price": 7000,
+        "image":"../labimage/graysimplesofa.png"
+    },
+    {
+        "id":"8",
+        "productName": "greensimple",
+        "price": 7000,
+        "image":"../labimage/greensimplesofa.png"
+    },
+    
+    {
+        "id":"9",
+        "productName": "blueCorner",
+        "price": 12000,
+        "image":"../labimage/blueCornerSofa.jpg"
+    },
+    {
+        "id":"10",
+        "productName": "familyluxry",
+        "price": 10000,
+        "image":"../labimage/familyluxurySofa1.jpg"
+    },
+    {
+        "id":"11",
+        "productName": "familySofa",
+        "price": 15000,
+        "image":"../labimage/collov-white.jpg"
+    },
+    {
+        "id":"12",
+        "productName": "orangeJOy",
+        "price": 10000,
+        "image":"../labimage/spacejoy-orange.png"
+    }
+
+    
+   
+    
+]
